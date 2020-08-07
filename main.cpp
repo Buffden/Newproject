@@ -33,20 +33,14 @@ public:
                 cout<<endl<<"Welcome: "<<inputuserid<<endl;
                 cout<<"ye lo ester egg: "<<details;
                 getch();
-
-
             }
-
-
             else
             {
                 cout<<endl<<"wrong password "<<userid<< ", please press any key to relogin"<<endl;
                 getch();
                 login();
-               }
             }
-
-
+        }
     }
 };
 int main()
@@ -57,6 +51,4 @@ int main()
     newlogin.login();
     getch();
     return 0;
-
-
 }
